@@ -29,3 +29,5 @@ deno task dev
 ## 演示
 
 https://t.me/yuemin_sniper_bot
+
+https://github.com/xudaashuai/sniper_bot/assets/19248941/fc151077-eca3-4a4b-b861-48482b95571d
