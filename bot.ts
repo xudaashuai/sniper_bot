@@ -52,6 +52,7 @@ bot.on("message", async (ctx) => {
           )
         ).message_id;
         break;
+
       // 处理输入wallet address
       case "WAIT_FOR_ADDRESS":
         if (!ctx.message?.text?.match(/^0x[\w\d]{40}$/)) {
