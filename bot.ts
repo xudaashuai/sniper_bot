@@ -11,9 +11,16 @@ bot.use(walletMenu);
 bot.command("start", async (ctx) => {
   // 发送菜单并记录 message id
   ctx.session.menuMessageId = (
-    await ctx.reply("Hi, this is Sniper Bot!", {
-      reply_markup: walletMenu,
-    })
+    await ctx.reply(
+      `Hi, this is Sniper Bot!${
+        ctx.session.wallet
+          ? `${ctx.session.wallet.name} ${ctx.session.wallet.address}`
+          : ""
+      } `,
+      {
+        reply_markup: walletMenu,
+      }
+    )
   ).message_id;
 });
 
