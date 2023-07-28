@@ -28,6 +28,6 @@ deno task dev
 
 ## 演示
 
-目前运行在 github codespace 上，可以点击 https://t.me/yuemin_sniper_bot 体验。
+目前运行在我的服务器上，可以点击 https://t.me/yuemin_sniper_bot 体验。
 
 https://github.com/xudaashuai/sniper_bot/assets/19248941/fc151077-eca3-4a4b-b861-48482b95571d
